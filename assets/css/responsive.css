@@ -1,0 +1,1394 @@
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1024px) {
+
+    .pb-5 {
+        padding-bottom: 1rem !important;
+    }
+
+    .hero_left_side h1 {
+        font-size: 65px;
+
+    }
+
+    .gradient {
+
+        font-size: 65px;
+
+    }
+
+    .border_text {
+
+        width: 230px;
+
+    }
+
+    .visual {
+
+        font-size: 15px;
+
+    }
+
+    .clr_white {
+
+        font-size: 14px;
+
+    }
+
+    .hero_social_group {
+
+        padding-bottom: 80px;
+    }
+
+    .about_me_items {
+        padding-top: 30px;
+
+        gap: 16px;
+    }
+
+    .about_hero_section {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+
+    .about_white_heading {
+
+        font-size: 55px;
+
+    }
+
+    .about_hero_content {
+        padding-top: 17px;
+        font-size: 16px;
+
+    }
+
+    .about_hero_social_group {
+        padding-top: 25px;
+    }
+
+    .hero_btn {
+        padding-top: 30px;
+
+    }
+
+    .btn.btn-primary {
+        padding: 9px 25px;
+
+    }
+
+    .about_me_items h3 {
+
+        font-size: 40px;
+
+    }
+
+    .about_me_pera {
+
+        font-size: 14px;
+    }
+
+    .about_me {
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+
+    .selected_project_content {
+        font-size: 15px;
+    }
+
+
+    .second_heading {
+        font-size: 56px;
+
+    }
+
+    .third_heading img {
+
+        padding-top: 8px;
+    }
+
+    .third_heading {
+
+
+        font-size: 28px;
+
+    }
+
+    .forth_heading {
+        font-size: 22px;
+
+    }
+
+    .selected_project_second_right_side {
+
+        padding-bottom: 80px;
+    }
+
+    .project_circle {
+
+        width: 377px;
+        height: 368px;
+
+    }
+
+    /* .recent_blog_right_side {
+        padding: 13px;
+    } */
+
+    .btn.btn-gray {
+        padding: 16px 79px;
+
+    }
+
+    .clr_gray_white {
+        font-size: 15px;
+
+    }
+
+    .pricing_pera {
+
+        font-size: 15px;
+
+    }
+
+    .pricing_rate {
+        font-size: 42px;
+
+    }
+
+    .pricing_list_pera_white {
+
+        font-size: 20px;
+
+    }
+
+    .pricing_list_pera {
+        font-size: 20px;
+
+    }
+
+    .service {
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .pricing_heading {
+        padding-top: 10px;
+
+
+    }
+
+    .service_items_child {
+        padding: 39px 30px 39px 30px;
+    }
+
+    .testimonial {
+        padding-top: 40px;
+
+    }
+
+    .btn.btn-dark {
+        padding: 15px 31px;
+        font-size: 14px;
+
+    }
+
+    .tesimonial_right_side h2 {
+
+        font-size: 55px;
+
+    }
+
+    .testimonial_pera {
+        padding-top: 15px;
+        padding-bottom: 21px;
+        font-size: 15px;
+
+    }
+
+
+
+
+    .slick-dots {
+        bottom: -23px;
+        left: 25px;
+    }
+
+
+    .slick-prev {
+        left: 92% !important;
+    }
+
+    .slick-prev,
+    .slick-next {
+        top: 101% !important;
+    }
+
+    .slick-next {
+        right: 2% !important;
+    }
+
+    .blog_second_heading {
+        padding-top: 10px;
+
+        font-size: 33px;
+
+    }
+
+    .recent_blog {
+
+        padding-bottom: 50px;
+    }
+
+    .footer_left_pera {
+
+        font-size: 17px;
+
+    }
+
+    .about_side_items {
+
+        padding-top: 2px;
+        flex-wrap: nowrap;
+    }
+
+    .about_side {
+        padding-top: 60px;
+    }
+
+    .edu_exp_side {
+        padding-top: 40px;
+
+    }
+
+    .edu_exp_side h2 {
+
+        font-size: 40px;
+
+    }
+
+    .edu_exp_side h3 {
+        padding-top: 30px;
+        font-size: 20px;
+
+    }
+
+    .edu_exp_side {
+
+        padding-bottom: 60px;
+        padding-left: 15px;
+
+    }
+
+    .about_hero_section {
+
+        padding-bottom: 0px;
+    }
+
+    .company_img_group_upper {
+        padding-top: 55px;
+        gap: 39px;
+    }
+
+    .company_img_group_lower {
+        padding-top: 40px;
+        gap: 39px;
+
+    }
+
+    .follow_me_left_side {
+        padding-left: 10px;
+    }
+
+    .follow_me_about_page {
+        padding-bottom: 50px;
+    }
+
+    .follow_me_box_pera {
+        font-size: 16px;
+    }
+
+    .content_left p {
+        padding-bottom: 30px;
+        font-size: 14px;
+
+    }
+
+    .content_left h3 {
+        padding-bottom: 25px;
+    }
+
+    .service_head h2 {
+        padding-bottom: 50px;
+        padding-top: 40px;
+
+    }
+
+    .content_right p {
+        padding-bottom: 30px;
+        font-size: 13px;
+
+    }
+
+    .content_right h3 {
+        padding-bottom: 25px;
+    }
+
+    .right_side_content {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .portfolio_head h2 {
+        padding-top: 50px;
+        font-size: 55px;
+        padding-bottom: 30px;
+    }
+
+    .portfolio_img_section {
+
+        padding-bottom: 70px;
+    }
+
+    .port_details_hero_img_group {
+        padding-top: 30px;
+    }
+
+    .realstate_parent p {
+        padding-top: 63px;
+        font-size: 20px;
+
+    }
+
+    .realstate_parent h3 {
+        padding-top: 38px;
+        font-size: 50px;
+
+    }
+
+    .overview_content {
+        padding-top: 21px;
+        font-size: 12px;
+        padding-bottom: 27px;
+    }
+
+    .key_feature_parent h4 {
+        padding-bottom: 4px;
+    }
+
+    .realstate_parent {
+
+        padding-bottom: 70px;
+    }
+
+    .key_feature_content {
+        padding-top: 2px;
+        padding-bottom: 18px;
+        font-size: 14px;
+
+    }
+
+    .we_create {
+        padding-top: 33px;
+    }
+
+    .we_create h3 {
+        font-size: 40px;
+
+
+
+
+    }
+
+    .img-fluid {
+        max-width: 93%;
+        height: 59%;
+        /* height: auto; */
+    }
+
+    .interesting_img_group img {
+        max-height: 700px;
+    }
+
+    .interesting_parent h3 {
+        padding-top: 40px;
+        font-size: 50px;
+
+    }
+
+    .interesting_content {
+        padding-top: 25px;
+
+        font-size: 14px;
+
+    }
+
+    .connect_left_side h2 {
+
+        font-size: 55px;
+
+    }
+
+    .connect_left_side p {
+        padding-top: 20px;
+        font-size: 16px;
+
+    }
+
+    .connect_child_content {
+        font-size: 22px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+
+
+    }
+
+    .send_mgs {
+        padding-top: 20px;
+        font-size: 18px;
+
+
+    }
+
+    .connect {
+        padding-bottom: 60px;
+    }
+
+    .blog {
+        padding-top: 52px;
+        padding-bottom: 6px;
+    }
+
+    .blog_right_side {
+        padding-top: 56px;
+    }
+
+    .service_heading {
+        padding-bottom: 5px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 768px) {
+
+    .gap-md-4 {
+        gap: 1.6rem !important;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        padding: 5px 0px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    a.nav-link.active:after {
+        position: absolute;
+
+        border-radius: 100px;
+        background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
+        width: 100%;
+        height: 2px;
+        bottom: -2px;
+        left: 0;
+        content: '';
+    }
+
+    .btn_side {
+        padding-top: 15px;
+    }
+
+    .nav-item a {
+
+        font-size: 12px;
+
+    }
+
+    .btn.btn-secondary {
+        padding: 5px 20px;
+        font-size: 12px;
+
+        border-radius: 6px;
+    }
+
+    .pricing_pera {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+
+    .polio {
+
+        font-size: 23px;
+
+        padding-top: 15px;
+
+    }
+
+    .navbar-expand-md .navbar-collapse {
+        padding: 20px 3px;
+    }
+
+    .snd {
+        font-size: 12px;
+
+    }
+
+    .gap-md-4 {
+        gap: 0.5rem !important;
+    }
+
+    .hero_left_side {
+        padding-top: 10px;
+    }
+
+
+    .hero_left_side h1 {
+        padding-top: 30px;
+
+        font-size: 40px;
+
+    }
+
+    .gradient {
+        font-size: 40px;
+
+    }
+
+    .border_text {
+
+        width: 250px;
+
+    }
+
+    .visual {
+
+        font-size: 15px;
+    }
+
+    .hero_content {
+
+        font-size: 13px;
+
+    }
+
+    .hero_btn {
+        padding-top: 21px;
+        gap: 15px;
+    }
+
+    .hero_left_side h3 {
+
+        padding-top: 25px;
+    }
+
+
+    .hero_right_side {
+
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+
+    .hero_left_side h3 {
+
+        font-size: 16px;
+
+    }
+
+    .secopricing_parent h2 {
+        font-size: 30px;
+
+        padding-bottom: 25px;
+    }
+
+    .pricing_heading {
+        padding-top: 10px;
+
+        font-size: 40px;
+
+        padding-bottom: 25px;
+    }
+
+    .about_me {
+        padding-top: 100px;
+
+    }
+
+    .about_me_items h3 {
+
+        padding-top: 30px;
+    }
+
+    .about_img_group {
+        padding-top: 60px;
+    }
+
+    .about_side_items h3 {
+        font-size: 36px;
+
+    }
+
+    .about_side_items p {
+        padding-bottom: 11px;
+        padding-top: 5px;
+
+        font-size: 12px;
+
+    }
+
+    .about_me_items {
+
+        padding-top: 10px;
+        gap: 19px;
+    }
+
+    .about_me {
+        padding-bottom: 51px;
+    }
+
+    .about_me_items h3 {
+
+        font-size: 32px;
+
+    }
+
+    .about_me_items p {
+
+        font-size: 12px;
+
+    }
+
+    .about_me_pera {
+        font-size: 13px;
+    }
+
+    .marqueeContainer p {
+        color: #161513;
+        font-size: 16px;
+    }
+
+    .marqueeContainer {
+
+        padding: 6px 0;
+
+    }
+
+    .selected_project_content {
+        font-size: 12px;
+    }
+
+    .selected_project_left_side {
+        padding-top: 5px;
+    }
+
+    .second_heading {
+        padding-top: 40px;
+        font-size: 40px;
+        padding-bottom: 3px;
+    }
+
+    .selected_project_left_side p {
+        padding-top: 22px;
+        padding-bottom: 50px;
+
+    }
+
+    .service_items {
+        padding-bottom: 30px;
+
+    }
+
+    /* .third_heading img {
+        padding-left: 141px;
+        padding-top: 2px;
+    } */
+
+    .circle_img img {
+        padding-top: 50px;
+        padding-left: 1px;
+    }
+    .third_heading {
+        padding-top: 33px;
+        font-size: 22px;
+        padding-bottom: 30px;
+
+    }
+
+    
+
+
+
+
+    .selected_project_right_side {
+        padding-top: 30px;
+    }
+
+    .selected_project_second_right_side {
+        margin-top: -77px;
+
+    }
+
+
+    .selected_project_second_left_side {
+        padding-top: 19px;
+        padding-bottom: 54px;
+        padding-left: 57px;
+    }
+
+
+    .left_img .protBg {
+
+        bottom: 8px;
+
+        border-radius: 25px;
+    }
+
+    .protBg2 {
+
+        bottom: -1px;
+
+        border-radius: 18px;
+    }
+
+    .left_img .protBg {
+        padding: 20px 43px;
+    }
+
+    .left_img .protBg2 {
+        padding: 20px 43px;
+    }
+
+    .project_circle {
+
+        padding-top: 28px;
+        width: 290px;
+        height: 279px;
+
+    }
+
+    .btn.btn-dark {
+        padding: 8px 16px;
+        font-size: 8px;
+
+    }
+
+    .service {
+        margin-top: 5px;
+        padding-bottom: 60px;
+    }
+
+    .sevice_btn {
+        padding-top: 10px;
+    }
+
+    .service_heading {
+
+        padding-bottom: 30px;
+    }
+
+    .service_items {
+        padding-top: 30px;
+
+    }
+
+    .service_items_child {
+        padding: 12px 43px 11px 10px;
+    }
+
+
+
+    .forth_heading {
+        font-size: 17px;
+    }
+
+    .btn.btn-plan {
+
+        font-size: 20px;
+
+
+        padding: 4px 32px;
+
+    }
+
+    .clr_gray_plan {
+        font-size: 18px;
+
+    }
+
+    .pricing_parent h2 {
+        padding-bottom: 25px;
+    }
+
+    .btn.btn-gray {
+        padding: 14px 98px;
+
+    }
+
+    .pricing_rate {
+        font-size: 30px;
+    }
+
+    .pricing_list_pera_white {
+
+        font-size: 18px;
+
+    }
+
+    .pricing_list_pera {
+
+        font-size: 18px;
+
+    }
+
+    .recent_blog {
+        padding-top: 20px;
+        padding-bottom: 3px;
+    }
+
+    .blog_second_heading {
+
+        font-size: 25px;
+    }
+
+    .blog_gray {
+        padding-top: 15px;
+        font-size: 16px;
+
+    }
+
+    .blog_second_heading {
+        padding-bottom: 33px;
+        padding-top: 9px;
+    }
+
+    .recent_arrow {
+        width: 50px;
+        height: 50px;
+        padding: 3px 0 0 2px;
+
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: 85%;
+    }
+
+    .img_white_head {
+        padding-top: 10px;
+    }
+
+    .recent_blog_left_side {
+        padding-top: 54px;
+    }
+
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .footer_left_pera {
+
+        font-size: 12px;
+
+    }
+
+    .footer_head_list {
+        padding-top: 15px;
+        gap: 50px;
+        justify-content: start;
+    }
+
+
+    .footer_head_list a {
+        font-size: 12px;
+    }
+
+    .testimonial {
+        padding-top: 30px;
+        padding-bottom: 35px;
+    }
+
+
+    .tesimonial_right_side h2 {
+        padding-top: 30px;
+        font-size: 40px;
+    }
+
+    .testimonial_pera {
+        padding-top: 17px;
+        padding-bottom: 18px;
+        font-size: 16px;
+
+    }
+
+    .tesimonial_right_side h4 {
+
+        font-size: 20px;
+
+    }
+
+    .ceo {
+        padding-bottom: 40px;
+        font-size: 12px;
+
+    }
+
+    .btn.btn-primary {
+        padding: 10px 20px;
+    }
+
+    .clr_white {
+
+        font-size: 12px;
+
+    }
+
+
+
+    .about_hero_section {
+        padding-top: 25px;
+
+    }
+
+    .about_white_heading {
+        font-size: 32px;
+
+    }
+
+    .about_clring_heading {
+        font-size: 40px;
+
+    }
+
+    .about_hero_content {
+        padding-top: 15px;
+        font-size: 11px;
+
+    }
+
+    .about_hero_social_group {
+        padding-top: 25px;
+    }
+
+    .about_side {
+        padding-top: 3px;
+    }
+
+    .edu_exp_side {
+        padding-top: 3px;
+        padding-bottom: 30px;
+
+    }
+
+    .edu_exp_side h3 {
+        padding-top: 15px;
+        font-size: 15px;
+
+    }
+
+    .edu_exp_side_sub_heading {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+
+
+
+    .edu_exp_side h2 {
+        padding-top: 20px;
+        font-size: 27px;
+    }
+
+
+
+    .about_hero_section {
+        padding-bottom: 1px;
+    }
+
+    .company_parent h2 {
+        padding-top: 20px;
+        font-size: 28px;
+    }
+
+
+
+    .follow_me_box h3 {
+        padding-top: 24px;
+        padding-bottom: 16px;
+    }
+
+    .follow_me_box h3 {
+
+        font-size: 20px;
+
+    }
+
+    .follow_me_box_pera {
+        font-size: 11px;
+    }
+
+
+
+
+    .company_img_group_upper {
+        padding-top: 31px;
+        gap: 18px;
+
+    }
+
+    .company_img_group_lower {
+        padding-top: 18px;
+        gap: 18px;
+
+    }
+
+    .about_company {
+        padding-bottom: 57px;
+    }
+
+
+    .follow_me_left_side {
+        padding-left: 7px;
+        padding-bottom: 50px;
+    }
+
+    .follow_me_box h3 {
+        padding-top: 24px;
+        padding-bottom: 16px;
+
+    }
+
+    .follow_me_box {
+        height: 205px;
+
+    }
+
+    .follow_social_group {
+        padding-top: 26px;
+        gap: 20px;
+    }
+
+
+
+
+
+    .service_head h2 {
+        padding-bottom: 37px;
+        padding-top: 20px;
+        font-size: 40px;
+
+    }
+
+    .content_left h3 {
+        font-size: 32px;
+        padding-bottom: 20px;
+    }
+
+    .content_left p {
+        padding-bottom: 20px;
+        font-size: 13px;
+
+    }
+
+    .content_right h3 {
+        font-size: 32px;
+
+    }
+
+    .blog_bottom {
+        height: 3px;
+    }
+
+    .content_left {
+        padding-bottom: 30px;
+    }
+
+    .left_side_content {
+        padding-bottom: 15px;
+    }
+
+    .right_side_content {
+        padding-top: 50px;
+    }
+
+    .content_right {
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+
+    .content_right h3 {
+
+        padding-bottom: 25px;
+    }
+
+    .content_right p {
+        padding-bottom: 25px;
+        font-size: 14px;
+
+    }
+
+    .right_side_content {
+        padding-bottom: 50px;
+    }
+
+    .content_left h3 {
+        padding-top: 20px;
+    }
+
+    .portfolio_head h2 {
+        padding-top: 20px;
+
+        font-size: 40px;
+
+        padding-bottom: 20px;
+    }
+
+    .p_list {
+        font-size: 12px;
+    }
+
+    .portfolio_list_group {
+
+        gap: 33px;
+    }
+
+    .portfolio_img_section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .img_white_head {
+        font-size: 25px;
+
+    }
+
+    .gradient_head {
+
+        font-size: 20px;
+
+    }
+
+    .left_img .protBg {
+        padding: 23px 42px;
+    }
+
+    .port_details_hero_img_group {
+
+        padding-top: 2px;
+    }
+
+    .small_device {
+        color: var(--Neutral-Color, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+
+        /* H2/Semibold */
+        font-family: Plus Jakarta Sans;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        /* 80px */
+        text-transform: capitalize;
+    }
+
+    .realstate_parent {
+        padding-bottom: 30px;
+    }
+
+    .overview_parent h4 {
+        padding-top: 25px;
+
+
+    }
+
+    .overview_parent h4 {
+        font-size: 32px;
+
+    }
+
+    .overview_content {
+        padding-top: 14px;
+        font-size: 13px;
+        padding-bottom: 40px;
+    }
+
+    .key_feature_parent h4 {
+
+        font-size: 25px;
+
+    }
+
+    .key_feature_child h5 {
+
+        font-size: 25px;
+
+    }
+
+    .key_feature_content {
+        padding-top: 14px;
+        padding-bottom: 15px;
+        font-size: 14px;
+
+    }
+
+    .we_create img {
+        width: 60%;
+    }
+
+    .key_feature_parent h4 {
+        padding-bottom: 10px;
+
+    }
+
+    .we_create h3 {
+        font-size: 32px;
+
+    }
+
+
+    .we_create {
+        padding-top: 30px;
+    }
+
+    .interesting_parent h3 {
+        padding-top: 25px;
+        font-size: 34px;
+    }
+
+    .interesting_content {
+        font-size: 15px;
+
+    }
+
+    .connect_child_content {
+
+        padding-bottom: 12px;
+        padding-top: 15px;
+    }
+
+    .connect_left_side h2 {
+        font-size: 40px;
+
+    }
+
+    .connect {
+        padding-bottom: 40px;
+    }
+
+    .connect_left_side p {
+        padding-top: 15px;
+    }
+
+
+    .connect_left_side p {
+        padding-top: 15px;
+    }
+
+    .connect_left_side p {
+
+        font-size: 13px;
+
+    }
+
+
+
+    .connect_child_content {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+
+    .send_mgs {
+        padding-top: 18px;
+
+    }
+
+    .blog {
+        padding-top: 30px;
+        padding-bottom: 6px;
+    }
+
+    .slick-prev {
+        left: 83% !important;
+    }
+
+    .slick-prev,
+    .slick-next {
+        top: 101% !important;
+    }
+
+    .slick-next {
+        right: 2% !important;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .we_create img {
+        width: 65%;
+        height: 80%;
+    }
+
+    .footer_head_list {
+
+        gap: 35px;
+
+    }
+
+    .portfolio_head h2 {
+        padding-top: 20px;
+        font-size: 55px;
+
+    }
+
+    .about_me_items p {
+        font-size: 10px;
+    }
+
+    .about_me {
+        padding-top: 60px;
+    }
+
+    .about_me_pera {
+        font-size: 12px;
+    }
+
+    .third_heading {
+
+        font-size: 17px;
+
+    }
+
+    .visual {
+        font-size: 11px;
+    }
+
+    .p_list {
+        font-size: 11px;
+    }
+
+    .small_device {
+
+        font-size: 36px;
+
+    }
+
+    .key_feature_child h5 {
+        font-size: 24px;
+    }
+
+    .clr_gray_white {
+
+        font-size: 15px;
+
+    }
+
+    .pricing_items {
+        padding-left: 20px;
+
+    }
+}
