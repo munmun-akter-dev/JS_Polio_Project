@@ -159,6 +159,7 @@ a {
 /*............ FOR BUTTON ANIMATION........... */
 
 .btn.btn-primary {
+    --bs-btn-border-color: none;
     padding: 16px;
     /* font-size: 18px; */
     font-family: 'Plus Jakarta Sans';
@@ -169,6 +170,7 @@ a {
 
 
 }
+
 
 .btn.btn-secondary {
     padding: 16px;
