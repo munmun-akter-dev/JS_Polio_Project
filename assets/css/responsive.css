@@ -571,12 +571,7 @@
 
     }
 
-    .border_text {
-
-        /* width: 250px; */
-
-    }
-
+   
     .visual {
 
         font-size: 15px;
@@ -713,13 +708,10 @@
 
     }
 
-    /* .third_heading img {
-        padding-left: 141px;
-        padding-top: 2px;
-    } */
+   
 
     .circle_img img {
-        /* padding-top: 50px; */
+   
         padding-left: 1px;
     }
 
@@ -1023,7 +1015,7 @@
 
     .company_parent h2 {
         padding-top: 20px;
-        font-size: 31px;
+        font-size: 28px;
     }
 
 
@@ -1052,11 +1044,20 @@
 
     }
 
+
+    .interesting_img_group {
+        padding-bottom: 55px;
+     
+    }
+
     .company_img_group_lower {
         padding-top: 18px;
         gap: 18px;
 
     }
+
+
+
 
     .about_company {
         padding-bottom: 57px;
@@ -1114,7 +1115,10 @@
     .blog_bottom {
         height: 3px;
     }
-
+    .we_create {
+        padding-top: 95px;
+        padding-bottom: 45px;
+    }
     .content_left {
         padding-bottom: 30px;
     }
