@@ -33,7 +33,7 @@
 
 <body>
 
-    <section class="top_bar">
+    <section class="top_bar" style="overflow-x: hidden; ">
         <div class="nav_section">
             <nav class="navbar navbar-expand-md">
                 <div class="container">
@@ -71,8 +71,8 @@
 
                             <li class="nav-item">
 
-                                <div class="lets_btn">
-                                    <button class="btn btn-secondary">
+                                <div class="lets_parent">
+                                    <button class="btn btn-secondary lets_btn">
                                         <a href="./service.html"><span class="snd">Let's Talk</span></a>
 
                                     </button>
@@ -137,15 +137,15 @@
 
                         <ul class="hero_social_group d-flex  gap-4 ">
                             <li>
-                                <img src="./assets/images/hero_s_in.png" alt="">
+                                <a href=""><img src="./assets/images/hero_s_in.png" alt=""></a>
                             </li>
 
                             <li>
-                                <img src="./assets/images/hero_s_twitter_img.png" alt="">
+                                <a href=""><img src="./assets/images/hero_s_twitter_img.png" alt=""></a>
                             </li>
 
                             <li>
-                                <img src="./assets/images/hero_s_insta.png" alt="">
+                              <a href="">  <img src="./assets/images/hero_s_insta.png" alt=""></a>
                             </li>
                         </ul>
 
@@ -429,7 +429,7 @@
     <!-- /* HERO SECTION END */ -->
 
     <!-- /* ABOUT ME SECTION START */ -->
-    <section class="about_me">
+    <section class="about_me " style="overflow-x: hidden;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -443,16 +443,9 @@
                 <div class="col-md-6">
                     <div class="about_me_right_side">
                         <h2 class="second_heading">About Me</h2>
-                        <p class="about_me_pera"
-
-                        data-aos="fade-up"
-                        data-aos-offset="200"
-                        data-aos-delay="50"
-                        data-aos-duration="1400"
-                        data-aos-easing="ease-in-out"
-                        data-aos-mirror="true"
-                        data-aos-once="false"
-                        >With 10 years experience as a professional Web developer, 1 have <br
+                        <p class="about_me_pera" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50"
+                            data-aos-duration="1400" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                            data-aos-once="false">With 10 years experience as a professional Web developer, 1 have <br
                                 class="d-none d-lg-block ">
                             acquired the skills an knowledge necessary to make your project a <br
                                 class="d-none d-lg-block">
@@ -465,13 +458,13 @@
                                 <p>Years of Experience <br class="d-none d-lg-block d-md-block">in Design</p>
 
                             </li>
-                            <img src="./assets/images/rectaingel.png" alt="">
+                            <img class="d-lg-block d-none" src="./assets/images/rectaingel.png" alt="">
                             <li>
                                 <h3><span class="number">120</span>+</h3>
                                 <p>Successfullly Projects <br class="d-none d-lg-block">Completed </p>
                             </li>
 
-                            <img src="./assets/images/rectaingel.png" alt="">
+                            <img class="d-lg-block d-none" src="./assets/images/rectaingel.png" alt="">
 
 
                             <li>
@@ -481,12 +474,20 @@
 
                         </ul>
 
-                        <button class="btn btn-primary">
-                            <a class="clr_white" href="#">Download CV
-                                <img src="./assets/images/download_btn_pic.png" alt="">
-                            </a>
 
-                        </button>
+
+
+
+
+
+                        <div class="download_btn">
+                            <button class="btn btn-primary">
+                                <a class="clr_white" href="#">Download CV
+                                    <img src="./assets/images/download_btn_pic.png" alt="">
+                                </a>
+
+                            </button>
+                        </div>
 
                     </div>
 
@@ -498,17 +499,23 @@
     <!-- /* ABOUT ME SECTION END */ -->
 
     <!-- SELECTED PROJECT SECTION START -->
-
-    <section class=" selected_project bg_black_gray ">
+    <section class=" selected_project bg_black_gray " style="overflow-x: hidden;">
         <div class="container">
             <div class="row ">
                 <div class="col-md-6">
                     <div class="selected_project_left_side">
-                        <h2 class="second_heading">Selected Projects</h2>
+                        <h2 class="second_heading"
+                        
+                        data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+
+                        Selected Projects</h2>
                         <p class="selected_project_content">I do deep market research before starting any project the
                             gives an <br class="d-none d-lg-block">
                             unfair advantage to bring the best result for client.</p>
-                        <img class="img-fluid" src="./assets/images/selected_project_left_img.png" alt="">
+                        <img class="img-fluid" src="./assets/images/selected_project_left_img.png" alt=""
+                            data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
 
                         <h3 class="third_heading">Flight Booking App
                             <a href="./portfolio.html"><img class="img-fluid"
@@ -522,7 +529,9 @@
                 <div class="col-md-6">
                     <div class="selected_project_right_side">
 
-                        <img class="img-fluid" src="./assets/images/selected_project_1st_right.png" alt="">
+                        <img class="img-fluid" src="./assets/images/selected_project_1st_right.png" alt=""
+                            data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
 
                         <h3 class="third_heading d-flex">Ecommerce Website
                             <a href="./portfolio.html"><img class="img-fluid"
@@ -537,24 +546,13 @@
             <div class="row">
 
 
-                <!--                 
-                <div class="col-md-6 d-lg-none d-block pt-5">
-                    <div class="selected_project_second_right_side">
-
-                        <img class="img-fluid" src="./assets/images/selected_project_2nd_right_img.png" alt="">
-
-                        <h3 class="third_heading">Shop App UI Design
-                            <a href="./portfolio_details.html"><img class="img-fluid" src="./assets/images/right_angle_arrow.png" alt=""></a>
-                        </h3>
-                        <h4 class="forth_heading d-none d-lg-block">03 - App Design</h4>
-
-                    </div>
-                </div> -->
-
-
-
                 <div class="col-md-6">
-                    <div class="selected_project_second_left_side">
+                    <div class="selected_project_second_left_side"
+                    
+                    data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false"
+
+                    >
 
                         <div class="project_circle">
                             <h3 class="third_heading">Explore <br class="d-none d-lg-block d-md-block">
@@ -562,15 +560,15 @@
                                 Project
 
                             </h3>
-                                <div class="circle_img">
+                            <div class="circle_img">
 
-                                    <a href="./portfolio.html">
-                                        <img class="img-fluid" src="./assets/images/white_angle_right_arrow.png" alt="">
-                                    </a>
-                                </div>
+                                <a href="./portfolio.html">
+                                    <img class="img-fluid" src="./assets/images/white_angle_right_arrow.png" alt="">
+                                </a>
+                            </div>
 
 
-                            
+
 
 
                         </div>
@@ -581,7 +579,9 @@
                 <div class="col-md-6 d-none d-lg-block">
                     <div class="selected_project_second_right_side">
 
-                        <img class="img-fluid" src="./assets/images/selected_project_2nd_right_img.png" alt="">
+                        <img class="img-fluid" src="./assets/images/selected_project_2nd_right_img.png" alt=""
+                            data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
 
                         <h3 class="third_heading">Shop App UI Design
                             <a href="./portfolio_details.html"><img class="img-fluid"
@@ -600,11 +600,17 @@
 
     <!-- MY SERVICES SECTION START -->
 
-    <section class="service">
+    <section class="service" style="overflow-x: hidden;">
         <div class="container">
             <div class="row">
                 <div class="service_heading d-flex">
-                    <h2 class="second_heading">My Services</h2>
+                    <h2 class="second_heading"
+                    
+                    
+                    data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                    data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+                    
+                    My Services</h2>
 
                     <div class="sevice_btn d-none d-lg-block"><button class="btn btn-dark">
                             <a class="clr_orange" href="./portfolio.html">View all works
@@ -625,8 +631,6 @@
                     </button>
                 </div>
 
-                <!-- <div class="service_line">
-                </div> -->
 
 
                 <ul class="service_items">
@@ -674,20 +678,18 @@
             </div>
             <div class="row">
                 <div class="pricing_parent">
-                    <h2 class="pricing_heading">
+                    <h2 class="pricing_heading"
+                    
+                    data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
                         Pricing
                     </h2>
                 </div>
 
                 <div class="col-lg-4  pt-4">
-                    <div class="pricing_items"
-                    data-aos="fade-right"
-                    data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false">
+                    <div class="pricing_items" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50"
+                        data-aos-duration="1400" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="false">
                         <div class="pricing_upper_btn">
                             <button class="btn btn-plan">
                                 <a class="clr_gray_plan" href="#">Basic Plan
@@ -742,16 +744,9 @@
                 </div>
 
                 <div class="col-lg-4  pt-4">
-                    <div class="pricing_items"
-                    data-aos="fade-up"
-                    data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1500"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false"
-
-                    >
+                    <div class="pricing_items" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+                        data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="false">
                         <div class="pricing_upper_btn">
                             <button class="btn btn-plan">
                                 <a class="clr_gray_plan" href="#">Basic Plan
@@ -806,17 +801,9 @@
                 </div>
 
                 <div class="col-lg-4 pt-4">
-                    <div class="pricing_items"
-
-                    data-aos="fade-left"
-                    data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false"
-                    
-                    >
+                    <div class="pricing_items" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50"
+                        data-aos-duration="1400" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="false">
                         <div class="pricing_upper_btn">
                             <button class="btn btn-plan">
                                 <a class="clr_gray_plan" href="#">Basic Plan
@@ -978,11 +965,16 @@
 
     <!-- RECENT BLOG SECTION START -->
 
-    <section class="recent_blog">
+    <section class="recent_blog" style="overflow-x: hidden;">
         <div class="container">
             <div class="row ">
                 <div class="service_heading d-flex">
-                    <h2 class="second_heading">Recent Blog</h2>
+                    <h2 class="second_heading"
+                    data-aos="fade-up" data-aos-offset="200" data-aos-delay="50"
+                        data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-mirror="true"
+                        data-aos-once="false">
+                    
+                    Recent Blog</h2>
 
                     <div class="sevice_btn d-none d-lg-block"><button class="btn btn-dark">
                             <a class="clr_orange" href="./portfolio.html">View all works
@@ -1011,16 +1003,8 @@
                 <div class="col-md-6">
                     <div class="recent_blog_left_side">
                         <img class="img-fluid" src="./assets/images/recent_blog_left_img.png" alt=""
-
-
-                        data-aos="fade-right"
-                    data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false"
-                        >
+                            data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
 
                         <h3 class="blog_gray">Sep 22, 2023
                             <img src="./assets/images/bg_white_right_arraow.png" alt="">
@@ -1052,14 +1036,8 @@
                 <div class="col-md-6">
                     <div class="recent_blog_right_side">
                         <img class="img-fluid" src="./assets/images/recent_blog_right_img.png" alt=""
-                        
-                        data-aos="fade-left"
-                    data-aos-offset="200"
-                    data-aos-delay="50"
-                    data-aos-duration="1400"
-                    data-aos-easing="ease-in-out"
-                    data-aos-mirror="true"
-                    data-aos-once="false">
+                            data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1400"
+                            data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
 
                         <h3 class="blog_gray">Sep 26, 2023
 
@@ -1144,9 +1122,9 @@
 
 
                     <ul class="footer_social_group d-flex gap-4 ">
-                        <li><img src="./assets/images/hero_s_in.png" alt=""></li>
-                        <li><img src="./assets/images/hero_s_twitter_img.png" alt=""></li>
-                        <li><img src="./assets/images/hero_s_insta.png" alt=""></li>
+                        <li><a href=""><img src="./assets/images/hero_s_in.png" alt=""></a></li>
+                        <li><a href=""><img src="./assets/images/hero_s_twitter_img.png" alt=""></a></li>
+                        <li><a href=""><img src="./assets/images/hero_s_insta.png" alt=""></a></li>
                     </ul>
 
 
@@ -1165,7 +1143,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 
 
     <!-- slick  -->

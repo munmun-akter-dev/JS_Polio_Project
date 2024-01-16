@@ -99,10 +99,7 @@ h3 {
     font-size: 1.8rem
 }
 
-/* .bg-gray{
-  background-color:#07091E;
-}
- */
+
 
 
 
@@ -115,9 +112,6 @@ a {
     color: #fff;
 }
 
-/* a:hover {
-    color: #fff;
-} */
 
 .pt-10 {
     padding-top: 1rem
@@ -131,14 +125,38 @@ a {
     max-width: 1420px;
 }
 
-/* .container-fluid {
-    max-width: 1223px;
-} */
+
 
 
 .bg_ft {
     background: var(--BG-Color, #1E1E1E);
 }
+
+
+
+/*............ FOR BUTTON ANIMATION........... */
+
+.lets_btn{
+    box-shadow:inset 0 0 0 0 black ;
+    -webkit-transition: ease-out 0.6s ; 
+}
+
+.lets_btn:hover{
+    transition: 0.6s ease-in-out;
+    box-shadow: inset 400px 50px 0 0;
+}
+
+ .btn-primary{
+    box-shadow:inset 0 0 0 0 black ;
+    -webkit-transition: ease-out 0.6s ; 
+}
+ 
+
+ .btn-primary:hover{
+    transition: 0.6s ease-in-out;
+    box-shadow: inset 400px 50px 0 0;
+}
+/*............ FOR BUTTON ANIMATION........... */
 
 .btn.btn-primary {
     padding: 16px;
@@ -487,7 +505,7 @@ a.nav-link.active {
 /* ABOUT ME SECTION START */
 
 .about_me {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 128px;
 }
 
@@ -514,7 +532,13 @@ a.nav-link.active {
     padding-top: 47px;
     gap: 55px;
 }
+.about_me_items li{
+    text-align: center;
+}
 
+.about_me_items p{
+    padding-bottom: 10px;
+}
 .about_me_pera {
     padding-top: 25px;
 }
@@ -537,7 +561,7 @@ a.nav-link.active {
 }
 
 .about_me_items p {
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     padding-top: 10px;
     color: var(--Text-Color-02, #D7D7D7);
 
@@ -549,6 +573,10 @@ a.nav-link.active {
     line-height: 150%;
     /* 27px */
 
+}
+
+.download_btn {
+    padding-top: 15px;
 }
 
 /* ABOUT ME SECTION END */
@@ -948,9 +976,9 @@ li.service_items_child {
 
 
 
-/* ............IMG TRANSITION............. */
+/* ............IMG ANIMATION............. */
 
-.about_me_left_side{
+.about_me_left_side {
     max-width: 537px;
     width: 100%;
     margin: 0 auto;
@@ -958,16 +986,17 @@ li.service_items_child {
 }
 
 
-.about_me_left_side img{
+.about_me_left_side img {
     overflow: hidden;
     transition: 0.3s ease-in-out;
 }
 
-.about_me_left_side img:hover{
+.about_me_left_side img:hover {
     transform: scale(1.1);
 }
 
-/* ............IMG TRANSITION............. */
+
+/* ............IMG ANIMATION............. */
 
 .testimonial {
     padding-top: 74px;
@@ -1069,7 +1098,7 @@ li.service_items_child {
 
 .slick-prev:before {
     content: '←';
-   
+
 }
 
 
@@ -1332,13 +1361,19 @@ li.service_items_child {
 }
 
 
-.about_side_items li {
+/* @media (max-width:768px) {
+    .about_side_items {
+        flex-direction: column;
+    }
+} */
 
+.about_side_items li {
+    padding-top: 30px;
     width: 467px;
 }
 
 
-.about_side_items {}
+
 
 /* ABOUT PAGE END */
 
@@ -1752,7 +1787,7 @@ ul.img_head.d-flex.align-items-center {
     border-radius: 31px;
 }
 
-.protBg2{
+.protBg2 {
     width: 100%;
     bottom: 0px;
     padding: 0 35px 35px;
@@ -1980,7 +2015,7 @@ ul.img_head.d-flex.align-items-center {
 }
 
 .interesting_img_group {
-    padding-bottom: 42px;
+    padding-bottom: 130px;
     padding-top: 48px;
     gap: 15px;
 

@@ -29,6 +29,10 @@
 
     }
 
+    .clr_orange {
+        font-size: 14px;
+    }
+
     .clr_white {
 
         font-size: 14px;
@@ -482,6 +486,15 @@
         padding: 5px 0px;
     }
 
+    .about_side_items {
+        flex-direction: column;
+    }
+
+    .about_me_items {
+
+        flex-direction: column;
+    }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -560,7 +573,7 @@
 
     .border_text {
 
-        width: 250px;
+        /* width: 250px; */
 
     }
 
@@ -613,8 +626,7 @@
     }
 
     .about_me {
-        padding-top: 100px;
-
+        padding-top: 27px;
     }
 
     .about_me_items h3 {
@@ -685,7 +697,7 @@
     }
 
     .second_heading {
-        padding-top: 40px;
+        padding-top: 10px;
         font-size: 40px;
         padding-bottom: 3px;
     }
@@ -707,9 +719,10 @@
     } */
 
     .circle_img img {
-        padding-top: 50px;
+        /* padding-top: 50px; */
         padding-left: 1px;
     }
+
     .third_heading {
         padding-top: 33px;
         font-size: 22px;
@@ -717,7 +730,7 @@
 
     }
 
-    
+
 
 
 
@@ -1010,7 +1023,7 @@
 
     .company_parent h2 {
         padding-top: 20px;
-        font-size: 28px;
+        font-size: 31px;
     }
 
 
@@ -1161,8 +1174,7 @@
     }
 
     .img_white_head {
-        font-size: 25px;
-
+        font-size: 20px;
     }
 
     .gradient_head {
@@ -1172,7 +1184,12 @@
     }
 
     .left_img .protBg {
-        padding: 23px 42px;
+        padding: 19px 19px;
+    }
+
+
+    .left_img .protBg2 {
+        padding: 19px 19px;
     }
 
     .port_details_hero_img_group {
@@ -1328,9 +1345,23 @@
 
 @media screen and (max-width: 375px) {
 
+    .hero_left_side h1 {
+        padding-top: 15px;
+        font-size: 30px;
+    }
+
+    .gradient {
+        font-size: 30px;
+    }
+
     .we_create img {
         width: 65%;
         height: 80%;
+    }
+
+    .selected_project_second_left_side {
+        padding-bottom: 40px;
+        padding-left: 34px;
     }
 
     .footer_head_list {
@@ -1341,7 +1372,7 @@
 
     .portfolio_head h2 {
         padding-top: 20px;
-        font-size: 55px;
+        font-size: 40px;
 
     }
 
@@ -1355,6 +1386,11 @@
 
     .about_me_pera {
         font-size: 12px;
+    }
+
+    .circle_img img {
+        padding-top: 0;
+
     }
 
     .third_heading {
