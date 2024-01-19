@@ -692,7 +692,7 @@ a.nav-link.active:after {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 42px */
+    padding-top: 5px;
 }
 
 .third_heading img {

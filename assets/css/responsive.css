@@ -692,6 +692,19 @@
 
 @media screen and (max-width: 425px) {
 
+    .hover_img {
+        top: 6px;
+        right: 100px;
+        z-index: 1;
+        width: 25%;
+        height: 100%;
+    }
+
+    .hover_img img {
+        max-width: 80%;
+        max-height: 80%;
+    }
+
     a.nav-link.active:after {
         position: absolute;
         border-radius: 100px;
@@ -757,9 +770,11 @@
         font-size: 36px;
 
     }
-.hero_social_group{
-    gap: 10px !important;
-}
+
+    .hero_social_group {
+        gap: 10px !important;
+    }
+
     .gradient {
         font-size: 40px;
 
@@ -920,11 +935,11 @@
 
 
 
-    
-        .pricing_items {
-            height: 580px;
-        }
-    
+
+    .pricing_items {
+        height: 580px;
+    }
+
     .pricing_lower_btn {
         padding-top: 34px;
     }
@@ -1071,7 +1086,7 @@
         padding-top: 9px;
     }
 
-    
+
 
     .selected_project_second_left_side.aos-init.aos-animate {
         padding-left: 60px;
@@ -1082,7 +1097,7 @@
         height: 85%;
     }
 
-    
+
 
     .recent_blog_left_side {
         padding-top: 54px;
@@ -1218,7 +1233,7 @@
         font-size: 28px;
     }
 
-   
+
 
     .follow_me_box h3 {
         padding-top: 24px;
@@ -1463,119 +1478,123 @@
     }
 
 
-.key_feature_parent h4 {
-    padding-bottom: 10px;
+    .key_feature_parent h4 {
+        padding-bottom: 10px;
 
+    }
+
+    .we_create h3 {
+        font-size: 32px !important;
+
+    }
+
+
+    .we_create {
+        padding-top: 30px;
+    }
+
+    .interesting_parent h3 {
+        padding-top: 25px;
+        font-size: 30px;
+    }
+
+    .interesting_content {
+        font-size: 15px;
+
+    }
+
+    .connect_child_content {
+
+        padding-bottom: 12px;
+        padding-top: 15px;
+    }
+
+    .connect_left_side h2 {
+        font-size: 40px;
+
+    }
+
+    .connect {
+        padding-bottom: 40px;
+    }
+
+    .connect_left_side p {
+        padding-top: 15px;
+    }
+
+
+    .connect_left_side p {
+        padding-top: 15px;
+    }
+
+    .connect_left_side p {
+
+        font-size: 13px;
+
+    }
+
+
+
+    .connect_child_content {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+
+    .send_mgs {
+        padding-top: 18px;
+
+    }
+
+    .blog {
+        padding-top: 20px;
+        padding-bottom: 6px;
+    }
+
+    .slick-prev {
+        left: 83% !important;
+    }
+
+    .slick-prev,
+    .slick-next {
+        top: 101% !important;
+    }
+
+    .slick-next {
+        right: 2% !important;
+    }
+
+    .slick-dots {
+
+        left: -17px;
+    }
+
+    .pricing_list {
+        padding-top: 10px;
+    }
+
+    .pricing_list_pera a {
+        padding-left: 10px;
+    }
+
+    .recent_arrow {
+        width: 76px;
+        height: 47px;
+        padding: 1px 0 0 0px;
+    }
+
+    .footer_social_group {
+        gap: 10px !important;
+
+
+
+
+    }
 }
 
-.we_create h3 {
-    font-size: 32px !important;
-
-}
-
-
-.we_create {
-    padding-top: 30px;
-}
-
-.interesting_parent h3 {
-    padding-top: 25px;
-    font-size: 30px;
-}
-
-.interesting_content {
-    font-size: 15px;
-
-}
-
-.connect_child_content {
-
-    padding-bottom: 12px;
-    padding-top: 15px;
-}
-
-.connect_left_side h2 {
-    font-size: 40px;
-
-}
-
-.connect {
-    padding-bottom: 40px;
-}
-
-.connect_left_side p {
-    padding-top: 15px;
-}
-
-
-.connect_left_side p {
-    padding-top: 15px;
-}
-
-.connect_left_side p {
-
-    font-size: 13px;
-
-}
-
-
-
-.connect_child_content {
-    padding-top: 20px;
-    font-size: 15px;
-}
-
-
-.send_mgs {
-    padding-top: 18px;
-
-}
-
-.blog {
-    padding-top: 20px;
-    padding-bottom: 6px;
-}
-
-.slick-prev {
-    left: 83% !important;
-}
-
-.slick-prev,
-.slick-next {
-    top: 101% !important;
-}
-
-.slick-next {
-    right: 2% !important;
-}
-.slick-dots {
-      
-    left: -17px;
-}
-.pricing_list {
-    padding-top: 10px;
-}
-
-.pricing_list_pera a{
-    padding-left: 10px;
-}
-
-.recent_arrow {
-    width: 76px;
-    height: 47px;
-    padding: 1px 0 0 0px;
-}
-.footer_social_group {
-    gap: 10px !important;
-    
-
-
-
-}
-}
 @media screen and (max-width: 375px) {
 
-   
+
     .gradient {
         font-size: 30px;
     }
@@ -1661,7 +1680,7 @@
 
     .hero_left_side h1 {
         padding-top: 25px;
-     
+
         font-size: 32px !important;
     }
 
@@ -1669,17 +1688,17 @@
         font-size: 12px;
     }
 
-    .pricing_list_pera a{
+    .pricing_list_pera a {
         padding-left: 10px;
     }
 
     .pricing_items {
-     
+
         height: 580px;
     }
 
     .slick-dots {
-      
+
         left: -17px;
     }
 
@@ -1694,8 +1713,9 @@
     .pricing_list {
         padding-top: 10px;
     }
+
     .visual {
-       
+
         padding-left: 10px;
     }
 
@@ -1704,5 +1724,5 @@
         height: 49px;
         padding: 1px 0 0 0px;
     }
-    
+
 }
