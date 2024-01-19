@@ -7,16 +7,15 @@
     box-sizing: border-box;
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap'); */
+
 
 
 
 :root {
-    /* --theme-primary: #037D41; */
+
     --theme-secondary: #D9EEE4;
     --theme-danger: #E61C2B;
     --text-primary: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
-    ;
     --text-secondary: #fff;
 
 
@@ -37,11 +36,7 @@ ul {
 
 body {
     font-family: 'Plus Jakarta Sans';
-    /* font-weight: 400;
-    font-size: 1.8rem;
-    letter-spacing: 0.36px; */
     background: var(--Primary-Color, #161513);
-
 }
 
 
@@ -60,8 +55,6 @@ p {
     letter-spacing: 0.36px;
     margin: 0;
 }
-
-
 
 h1,
 h2,
@@ -82,11 +75,6 @@ img {
     vertical-align: middle;
 }
 
-/* .section-padding {
-    padding: 140px 0;
-} */
-
-
 h1 {
     font-size: 3.2rem
 }
@@ -98,9 +86,6 @@ h2 {
 h3 {
     font-size: 1.8rem
 }
-
-
-
 
 
 ul {
@@ -126,8 +111,6 @@ a {
 }
 
 
-
-
 .bg_ft {
     background: var(--BG-Color, #1E1E1E);
 }
@@ -136,39 +119,53 @@ a {
 
 /*............ FOR BUTTON ANIMATION........... */
 
-.lets_btn{
-    box-shadow:inset 0 0 0 0 black ;
-    -webkit-transition: ease-out 0.6s ; 
+.lets_btn {
+    box-shadow: inset 0 0 0 0 black;
+    -webkit-transition: ease-out 0.6s;
 }
 
-.lets_btn:hover{
+.lets_btn:hover {
     transition: 0.6s ease-in-out;
     box-shadow: inset 400px 50px 0 0;
 }
 
- .btn-primary{
-    box-shadow:inset 0 0 0 0 black ;
-    -webkit-transition: ease-out 0.6s ; 
-}
- 
 
- .btn-primary:hover{
+.orange_btn {
+    box-shadow: inset 0 0 0 0 black;
+    -webkit-transition: ease-out 0.6s;
+
+}
+
+.orange_btn:hover {
+    transition: 0.6s ease-in-out;
+    box-shadow: inset 400px 50px 0 0;
+
+
+}
+
+
+.dark_btn {
+    box-shadow: inset 0 0 0 0 purple;
+    -webkit-transition: ease-out 0.6s;
+}
+
+.dark_btn:hover {
     transition: 0.6s ease-in-out;
     box-shadow: inset 400px 50px 0 0;
 }
+
+
 /*............ FOR BUTTON ANIMATION........... */
 
-.btn.btn-primary {
+.btn.btn_primary {
     --bs-btn-border-color: none;
     padding: 16px;
-    /* font-size: 18px; */
     font-family: 'Plus Jakarta Sans';
     background: var(--Gradient-Linear-4, linear-gradient(90deg, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 99.99%));
     font-weight: 600;
     letter-spacing: 0.36px;
     border-radius: 11px;
-
-
+    border: 1px solid var(--Gradient-Linear-3, #B16CEA);
 }
 
 
@@ -182,9 +179,7 @@ a {
     border-radius: 11px;
 }
 
-
-
-.btn.btn-dark {
+.btn.btn_dark {
     padding: 20px 56px;
     font-size: 16px;
     font-family: 'Plus Jakarta Sans';
@@ -193,31 +188,23 @@ a {
     letter-spacing: 0.36px;
     border-radius: 11px;
     border: 1px solid var(--Gradient-Linear-3, #B16CEA);
-
-
 }
-
 
 .btn.btn-plan {
 
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-
-
     font-family: Plus Jakarta Sans;
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-
     padding: 10px 40px;
     border-radius: 100px;
     border: 2px solid var(--Text-Color-02, #D7D7D7);
-
 }
 
 .btn.btn-gray {
-
     padding: 20px 120px;
     justify-content: center;
     align-items: center;
@@ -232,8 +219,6 @@ a {
 }
 
 
-
-
 /* COMMON CSS END */
 
 
@@ -243,8 +228,6 @@ a {
 .navbar-toggler {
 
     background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
-
-
 }
 
 .navbar-expand-md .navbar-collapse {
@@ -282,15 +265,11 @@ a {
 
 .snd {
     color: var(--Text-Color-01, #161513);
-
-
-    /* B1/Semibold */
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
-    /* 27px */
 }
 
 
@@ -301,15 +280,11 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-
 }
 
 .navbar-nav {
-
     --bs-nav-link-hover-color: #fff;
-
 }
-
 
 .nav-item:hover {
     color: #fff;
@@ -321,24 +296,25 @@ a {
     background: var(--Primary-Color, #161513);
 }
 
-/* ..............list active properties ...........*/
-a.nav-link.active:after {
-    position: absolute;
 
-    border-radius: 100px;
-    background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
-    width: 100%;
-    height: 2px;
-    bottom: -34px;
-    left: 0;
-    content: '';
-}
+
+/* ..............list active properties ...........*/
 
 a.nav-link.active {
     position: relative;
     display: inline-block;
 }
 
+a.nav-link.active:after {
+    position: absolute;
+    border-radius: 100px;
+    background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    content: '';
+}
 
 /* ............list active properties ...............*/
 
@@ -347,14 +323,75 @@ a.nav-link.active {
 
 /* HI SECTION START */
 
+/* ............FOR HAND ANIMATION.............. */
+
+
+.wave {
+    animation-name: wave-animation;
+    /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;
+    /* Change to speed up or slow down */
+    animation-iteration-count: infinite;
+    /* Never stop waving :) */
+    transform-origin: 70% 70%;
+    /* Pivot around the bottom-left palm */
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(14.0deg)
+    }
+
+    /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+        transform: rotate(-8.0deg)
+    }
+
+    30% {
+        transform: rotate(14.0deg)
+    }
+
+    40% {
+        transform: rotate(-4.0deg)
+    }
+
+    50% {
+        transform: rotate(10.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+    /* Reset for the last half to pause */
+    100% {
+        transform: rotate(0.0deg)
+    }
+}
+
+
+
+
+/* For demonstration purposes only: */
+/* body { font-size: 3.5em }
+  h1 { font-size: 0.5em } */
+
+
+/* ............FOR HAND ANIMATION.............. */
+
+
+
 .hero_left_side {
     padding-top: 68px;
 }
 
 .hero_left_side h1 {
     color: var(--Neutral-Color, #FFF);
-
-    /* H1/ExtraBold */
     font-family: Plus Jakarta Sans;
     font-size: 88px;
     font-style: normal;
@@ -367,8 +404,6 @@ a.nav-link.active {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
-    /* H1/ExtraBold */
     font-family: Plus Jakarta Sans;
     font-size: 88px;
     font-style: normal;
@@ -386,27 +421,21 @@ a.nav-link.active {
 
 .visual {
     color: var(--Neutral-Color, #FFF);
-
-    /* H6/Medium */
     font-family: Plus Jakarta Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
-    /* 40px */
     padding-left: 24px;
 }
 
 .hero_content {
     color: var(--Text-Color-02, #D7D7D7);
-
-    /* B1/Regular */
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 27px */
 }
 
 .hero_btn {
@@ -417,14 +446,11 @@ a.nav-link.active {
 
 .clr_white {
     color: var(--Neutral-Color, #FFF);
-
-    /* B1/Semibold */
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
-    /* 27px */
     border: none;
 }
 
@@ -435,14 +461,11 @@ a.nav-link.active {
 .hero_left_side h3 {
     color: var(--Neutral-Color, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* H8/Medium */
     font-family: Plus Jakarta Sans;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
-    /* 30px */
     padding-top: 50px;
 }
 
@@ -469,6 +492,13 @@ a.nav-link.active {
     border: 1px solid var(--Gradient, #B16CEA);
 }
 
+.hero_social_group li:hover {
+    background-color: purple;
+}
+
+.footer_social_group li:hover {
+    background-color: purple;
+}
 
 .hero_right_side {
     background-image: url('../images/hi_jhon_right_background_img.png');
@@ -482,15 +512,11 @@ a.nav-link.active {
 
     color: var(--Primary-Color, #161513);
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* H5/Semibold */
     font-family: Plus Jakarta Sans;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
-    /* 50px */
-
 }
 
 .angle_text img {
@@ -500,6 +526,28 @@ a.nav-link.active {
 .angle_group_items {
     gap: 40px;
 }
+
+
+/*............... SVG CSS PROPERTIES............. */
+
+
+.first_svg {
+    display: block;
+}
+
+.second_svg {
+    display: none;
+
+}
+
+.second_svg:hover {
+
+    color: #D9EEE4;
+    display: block;
+}
+
+
+/*............... SVG CSS PROPERTIES............. */
 
 /* HERO SECTION END */
 
@@ -517,7 +565,6 @@ a.nav-link.active {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-feature-settings: 'clig' off, 'liga' off;
-
     /* H2/Bold */
     font-family: Plus Jakarta Sans;
     font-size: 64px;
@@ -526,7 +573,6 @@ a.nav-link.active {
     line-height: 125%;
     /* 80px */
 
-
 }
 
 .about_me_items {
@@ -534,13 +580,15 @@ a.nav-link.active {
     padding-top: 47px;
     gap: 55px;
 }
-.about_me_items li{
+
+.about_me_items li {
     text-align: center;
 }
 
-.about_me_items p{
+.about_me_items p {
     padding-bottom: 10px;
 }
+
 .about_me_pera {
     padding-top: 25px;
 }
@@ -548,7 +596,6 @@ a.nav-link.active {
 .about_me_items h3 {
 
     font-feature-settings: 'clig' off, 'liga' off;
-
     /* H4/Bold */
     font-family: Plus Jakarta Sans;
     font-size: 48px;
@@ -627,6 +674,13 @@ a.nav-link.active {
     line-height: 125%;
     /* 60px */
 }
+
+
+.third_heading_parent {
+    padding-top: 20px;
+    gap: 149px;
+}
+
 
 .forth_heading {
     color: var(--Text-Color-02, #D7D7D7);
@@ -711,6 +765,8 @@ a.nav-link.active {
 }
 
 
+
+
 .service_items {
     /* padding-top: 59px; */
     padding-bottom: 59px;
@@ -757,12 +813,20 @@ li.service_items_child {
 }
 
 
-
 .hover_img {
+    top: -58px;
+    right: 261px;
+    z-index: 1;
+    width: 25%;
+    height: 100%;
+}
+
+
+/* .hover_img {
     top: -90px;
     right: 389px;
     z-index: 1;
-}
+} */
 
 .service_items_child:hover .hover_img img {
     display: block;
@@ -786,7 +850,7 @@ li.service_items_child {
 .pricing_items {
     padding-left: 32px;
     padding-bottom: 26px;
-    max-width: 450px;
+    /* max-width: 450px; */
 
 
     /* height: 721px; */
@@ -932,6 +996,10 @@ li.service_items_child {
     border: 2px solid var(--Gradient-Linear-3, #B16CEA);
 }
 
+.pricing_items:hover .clr_gray_plan {
+    color: #fff;
+}
+
 .pricing_lower_btn {
     padding-top: 26px;
 }
@@ -997,6 +1065,24 @@ li.service_items_child {
     transform: scale(1.1);
 }
 
+
+
+.hero_right_side {
+    max-width: 537px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.hero_right_side img {
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+
+}
+
+.hero_right_side img:hover {
+    transform: scale(1.1);
+}
 
 /* ............IMG ANIMATION............. */
 
@@ -1141,10 +1227,7 @@ li.service_items_child {
     line-height: 1;
     /* opacity: .75; */
     background: linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%) !important;
-
-
     border-radius: 50px;
-
     font-size: 32px !important;
 }
 
@@ -1220,16 +1303,96 @@ li.service_items_child {
     width: 52px;
     height: 52px;
 
-    padding: 5px 0 0 2px;
+    padding: 1px 0 0 0px;
     background: #FFF;
     border-radius: 50%;
     /* margin-left: 523px; */
+}
+
+
+
+.recent_arrow:hover {
+    background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
+
+}
+
+
+
+.recent_arrow:hover .hover_block {
+    display: block;
+}
+
+.recent_arrow:hover .hover_none {
+    display: none;
+}
+
+.recent_arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .recent_arrow .svg {
     align-items: center;
     transform: rotate(-4deg);
 }
+
+.recent_arrow_portfolio {
+    width: 52px;
+    height: 52px;
+
+    padding: 1px 0 0 0px;
+    background: #FFF;
+    border-radius: 50%;
+    /* margin-left: 523px; */
+}
+
+
+/* .............ARROW HOVER COLOR CHAGE PROPERTIES............. */
+
+.recent_arrow_portfolio:hover {
+    background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
+    /* color: white !important; */
+}
+
+
+/* .recent_arrow_portfolio svg {
+    align-items: center;
+    transform: rotate(-4deg);
+} */
+
+
+
+
+
+.hover_block {
+    display: none;
+}
+
+.recent_arrow_portfolio:hover .hover_block {
+    display: block;
+}
+
+.recent_arrow_portfolio:hover .hover_none {
+    display: none;
+}
+
+.recent_arrow_portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* .............ARROW HOVER COLOR CHAGE PROPERTIES............. */
+
+
+
+
+
+
+
 
 /* <!-- RECENT BLOG SECTION END --> */
 
@@ -1356,6 +1519,10 @@ li.service_items_child {
     align-items: center;
 }
 
+.about_hero_social_group li:hover {
+    background-color: purple;
+}
+
 .about_img_group {
     padding-top: 100px;
 }
@@ -1369,7 +1536,9 @@ li.service_items_child {
 }
 
 
-
+section.follow_me_about_page {
+    padding-bottom: 119px;
+}
 
 /* ABOUT PAGE END */
 
@@ -1620,14 +1789,11 @@ h2.gradient span {
     padding-top: 106px;
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* H2/Semibold */
     font-family: Plus Jakarta Sans;
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
-    /* 80px */
     text-transform: capitalize;
     background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
     background-clip: text;
@@ -1638,28 +1804,22 @@ h2.gradient span {
 .content_left h3 {
     color: var(--Neutral-Color, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* H3/Semibold */
     font-family: Plus Jakarta Sans;
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
-    /* 62.5px */
     padding-bottom: 46px;
 }
 
 .content_left p {
     padding-bottom: 48px;
     color: var(--Text-Color-02, #D7D7D7);
-
-    /* B1/Regular */
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 27px */
 }
 
 /* <!-- /* SERVICE HERO SECTION END */
@@ -1694,14 +1854,11 @@ h2.gradient span {
 
     color: var(--Neutral-Color, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* H3/Semibold */
     font-family: Plus Jakarta Sans;
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
-    /* 62.5px */
     padding-bottom: 46px;
 
 }
@@ -1709,14 +1866,12 @@ h2.gradient span {
 .content_right p {
     padding-bottom: 48px;
     color: var(--Text-Color-02, #D7D7D7);
-
-    /* B1/Regular */
     font-family: Plus Jakarta Sans;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
-    /* 27px */
+
 
 }
 
@@ -1734,14 +1889,11 @@ h2.gradient span {
     padding-top: 105px;
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
-
-    /* H2/Semibold */
     font-family: Plus Jakarta Sans;
     font-size: 64px;
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
-    /* 80px */
     text-transform: capitalize;
     background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
     background-clip: text;
@@ -1797,7 +1949,6 @@ ul.img_head.d-flex.align-items-center {
     font-size: 18px;
 
 }
-
 
 .gradient_head {
 
@@ -1863,14 +2014,16 @@ ul.img_head.d-flex.align-items-center {
     /* 30px */
 }
 
+
 .realstate_parent {
-    gap: 200px;
+    gap: 186px;
     padding-bottom: 115px;
+
 }
 
 
 .realstate_parent h3 {
-    padding-top: 34px;
+    padding-top: 40px;
     text-align: center;
     color: var(--Neutral-Color, #FFF);
     font-feature-settings: 'clig' off, 'liga' off;
@@ -1884,6 +2037,21 @@ ul.img_head.d-flex.align-items-center {
     /* 80px */
     text-transform: capitalize;
 
+}
+
+
+.realstate_parent h5 {
+    padding-top: 63px;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    background: var(--Gradient-Linear-3, linear-gradient(90deg, #B16CEA 14.06%, #FF5E69 44.79%, #FF8A56 71.87%, #FFA84B 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .overview_parent h4 {
@@ -1972,7 +2140,7 @@ ul.img_head.d-flex.align-items-center {
 
     /* H1/Semibold */
     font-family: Plus Jakarta Sans;
-    font-size: 90px;
+    font-size: 90px !important;
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
@@ -1981,7 +2149,7 @@ ul.img_head.d-flex.align-items-center {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+
 }
 
 
@@ -1999,7 +2167,7 @@ ul.img_head.d-flex.align-items-center {
     line-height: 125%;
     /* 80px */
     text-transform: capitalize;
-    
+
 
 }
 
