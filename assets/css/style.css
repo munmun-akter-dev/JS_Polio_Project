@@ -1068,8 +1068,8 @@ li.service_items_child {
 
 
 .hero_right_side {
-    max-width: 537px;
-    width: 100%;
+    /* max-width: 537px;
+    width: 100%; */
     margin: 0 auto;
     overflow: hidden;
 }

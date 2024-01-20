@@ -2,6 +2,9 @@
 
 @media screen and (max-width: 1024px) {
 
+
+    
+
     .pb-5 {
         padding-bottom: 1rem !important;
     }
@@ -367,8 +370,23 @@
 
     .realstate_parent h3 {
         padding-top: 38px;
-        font-size: 50px;
+        font-size: 30px !important;
 
+    }
+
+
+    .left_img .protBg {
+        border-radius: 23px;
+    }
+
+    .protBg2 {
+        
+        border-radius: 21px;
+    }
+
+    .realstate_parent {
+        gap: 165px;
+        
     }
 
     .overview_content {
