@@ -3,7 +3,10 @@
 @media screen and (max-width: 1024px) {
 
 
-    
+    .hero_left_side {
+        padding-top: 1px;
+    }
+
 
     .pb-5 {
         padding-bottom: 1rem !important;
@@ -374,19 +377,30 @@
 
     }
 
+    #connect_child_content {
+        font-size: 15px;
+        padding-bottom: 20px;
+        padding-top: 22px;
+    }
+
 
     .left_img .protBg {
         border-radius: 23px;
     }
 
     .protBg2 {
-        
+
         border-radius: 21px;
     }
 
     .realstate_parent {
         gap: 165px;
-        
+
+    }
+
+    .cnt_head img {
+
+        width: 33%;
     }
 
     .overview_content {
@@ -498,6 +512,54 @@
 @media screen and (max-width: 992px) {}
 
 @media screen and (max-width: 768px) {
+
+    section.hero {
+        padding: 30px 0 0px;
+    }
+
+    .marquee_parent {
+        padding-top: 50px;
+    }
+
+    .hero_right_side>img:first-child {
+        padding-top: 0px;
+
+    }
+
+    .element {
+
+        font-size: 65px;
+
+    }
+
+    #scrollBtn {
+
+
+        right: 10px;
+
+    }
+
+    section.selected_project.bg_black_gray {
+        padding-bottom: 50px;
+    }
+
+    .recent_arrow {
+        width: 73px;
+        height: 45px;
+
+    }
+
+    .third_heading_parent {
+        padding-top: 20px;
+        gap: 400px;
+    }
+
+    [type=button]:not(:disabled),
+    [type=reset]:not(:disabled),
+    [type=submit]:not(:disabled),
+    button:not(:disabled) {
+        cursor: pointer;
+    }
 
     .gap-md-4 {
         gap: 1.6rem !important;
@@ -709,6 +771,35 @@
 }
 
 @media screen and (max-width: 425px) {
+
+    .recent_arrow_blog {
+        width: 95px;
+        height: 48px;
+
+    }
+
+    .third_heading_parent {
+        padding-top: 20px;
+        gap: 180px;
+    }
+
+    .about_me_right_side {
+        padding-top: 17px;
+    }
+
+    .element {
+
+        font-size: 36px;
+
+    }
+
+    section.hero {
+        padding: 0px 0 30px;
+    }
+
+    .marquee_parent {
+        padding-top: 30px;
+    }
 
     .hover_img {
         top: 6px;
@@ -940,19 +1031,40 @@
 
 
     .circle_img img {
+        width: 13%;
 
         padding-left: 1px;
     }
 
     .third_heading {
-        padding-top: 33px;
+        padding-top: 60px;
         font-size: 22px;
         padding-bottom: 30px;
 
     }
 
 
+    .recent_arrow_portfolio {
+        width: 45px;
+        height: 45px;
 
+    }
+
+    #scrollBtn {
+
+        bottom: 3px;
+        right: 6px;
+
+        width: 45px;
+        height: 45px;
+
+    }
+
+    .footer_social_group {
+
+        padding-top: 15px;
+
+    }
 
     .pricing_items {
         height: 580px;
@@ -1107,7 +1219,7 @@
 
 
     .selected_project_second_left_side.aos-init.aos-animate {
-        padding-left: 60px;
+        padding-left: 35px;
     }
 
     .img-fluid {
@@ -1491,7 +1603,8 @@
     }
 
     .we_create img {
-        max-width: 75%;
+        max-width: 70%;
+        height: 70%;
         padding-left: 24px;
     }
 
@@ -1596,9 +1709,20 @@
     }
 
     .recent_arrow {
-        width: 76px;
-        height: 47px;
+        width: 80px;
+        height: 45px;
         padding: 1px 0 0 0px;
+    }
+
+    .service_items_child img {
+        width: 60%;
+        height: 70%;
+        transform: rotate(6deg);
+    }
+
+    .third_heading_parent img {
+        width: 70%;
+        height: 70%;
     }
 
     .footer_social_group {
@@ -1611,6 +1735,9 @@
 }
 
 @media screen and (max-width: 375px) {
+    .element {
+        font-size: 34px !important;
+    }
 
 
     .gradient {
@@ -1644,7 +1771,7 @@
     }
 
     .about_me {
-        padding-top: 60px;
+        padding-top: 6px;
     }
 
     .about_me_pera {
@@ -1738,8 +1865,8 @@
     }
 
     .recent_arrow {
-        width: 94px;
-        height: 49px;
+        width: 82px;
+        height: 43px;
         padding: 1px 0 0 0px;
     }
 

@@ -23,6 +23,10 @@
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
     <title>Portfolio Details Page</title>
 
 
@@ -36,7 +40,7 @@
         <div class="nav_section">
             <nav class="navbar navbar-expand-md">
                 <div class="container">
-                    <a class="navbar-brand nav-logo d-flex  justify-content-center" href="#">
+                    <a class="navbar-brand nav-logo d-flex  justify-content-center" href="./index.html">
                         <img src="./assets/images/nav_left_img.png" alt="">
                         <span class="polio">Polio</span> </a>
 
@@ -108,7 +112,7 @@
 
 
 
-    </section> 
+    </section>
 
 
 
@@ -128,7 +132,7 @@
                 <div class="realstate_parent d-flex justify-content-center  ">
                     <p class="d-none d-lg-block">06 October,2023</p>
                     <h3 class="d-none d-lg-block"> Real Estate Website</h3>
-                    <h5 >Website Design</h5>
+                    <h5>Website Design</h5>
 
                 </div>
                 <div class="small_device_parent">
@@ -143,7 +147,7 @@
                             class="d-none d-lg-block"> With a
                         focus on modern design, robust functionality, and intuitive navigation, Elite Estates stands out
                         as
-                        a premier platform in the competitive real estate market. 
+                        a premier platform in the competitive real estate market.
 
 
 
@@ -243,7 +247,7 @@
 
         </div>
 
-    </section>  
+    </section>
 
 
 
@@ -267,14 +271,17 @@
                         development</h3>
 
                     <p class="interesting_content">Estates is a sophisticated and user-friendly real estate website
-                        designed to provide a seamless 
-                        experience for   property buyers, sellers, and <br class="d-none d-lg-block d-md-block"> real estate
-                        professionals.  With a focus on modern
-                        design, robust functionality, and intuitive navigation,  Elite  Estates stands out as  a premier
+                        designed to provide a seamless
+                        experience for property buyers, sellers, and <br class="d-none d-lg-block d-md-block"> real
+                        estate
+                        professionals. With a focus on modern
+                        design, robust functionality, and intuitive navigation, Elite Estates stands out as a premier
                         <br class="d-none d-lg-block d-md-block">
-                        platform in the competitive real estate market. </p>
+                        platform in the competitive real estate market.
+                    </p>
 
-                    <p class="interesting_content d-none d-md-block">Estates is a sophisticated and user-friendly real estate website
+                    <p class="interesting_content d-none d-md-block">Estates is a sophisticated and user-friendly real
+                        estate website
                         designed to provide a seamless
                         experience for property buyers, sellers, and real estate
                         professionals. With a focus on modern
@@ -289,9 +296,9 @@
 
 
 
-    </section>  
- 
-     <div class="interesting_img_group d-flex justify-content-center  align-items-start" style="overflow-x: hidden;">
+    </section>
+
+    <div class="interesting_img_group d-flex justify-content-center  align-items-start" style="overflow-x: hidden;">
         <div class="col-lg-2">
             <img class="img-fluid d-lg-block d-none" src="./assets/images/portfolio_details_bottom_left_img.png" alt=""
                 width="100%">
@@ -306,24 +313,34 @@
                 width="100%">
         </div>
 
-    </div>  
+    </div>
 
     <!-- INTERESTING SECTION END -->
 
 
     <!-- CONNECT SECTION START -->
 
-     <section class="connect" style="overflow-x: hidden;">
+    <section class="connect" style="overflow-x: hidden;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="connect_left_side">
-                        <h2 class="cnt_head">
+                        <!-- <h2 class="cnt_head">
                             Let's <a href="./portfolio.html"><img 
                                     src="./assets/images/lets_cnt_img.png" alt=""></a>
-                            <br class="d-none d-lg-block">
+                            <br class="d-none d-lg-block"/>
 
                             Connect.
+
+                        </h2> -->
+                        <h2 class="cnt_head">
+                            Let's <a href="mailto:kazimun50@gmail.com" target="_blank">
+                                <img
+                                    src="./assets/images/lets_cnt_img.png" alt=""></a>
+                            <br class="d-none d-lg-block " />
+
+                            Connect.
+                            </a>
 
                         </h2>
                         <p>We take the time to understand your business and develop a <br class="d-none d-lg-block">
@@ -338,27 +355,35 @@
                     <div class="connect_right_side">
 
                         <div class="connect_child">
-                            <p class="connect_child_content">Your Name</p>
+
+                            
+                            <input id="connect_child_content" type="text" placeholder="Your Name">
+
+                            <!--  <p class="connect_child_content">Your Name</p> -->
+                            <div class="connect_line">
+
+                            </div> 
+                        </div>
+
+                        <div class="connect_child">
+
+                            <input id="connect_child_content" type="text" placeholder="Your Mail">
+                         
                             <div class="connect_line">
 
                             </div>
                         </div>
 
                         <div class="connect_child">
-                            <p class="connect_child_content">Your Mail</p>
+                            <input id="connect_child_content" type="text" placeholder="Message">
+                            
+                            
                             <div class="connect_line">
 
                             </div>
                         </div>
 
-                        <div class="connect_child">
-                            <p class="connect_child_content">Message</p>
-                            <div class="connect_line">
-
-                            </div>
-                        </div>
-
-                        <p class="send_mgs">Send Message</p>
+                        <a href="mailto:kazimun50@gmail.com" target="_blank"><p class="send_mgs">Send Message</p></a>
 
 
                     </div>
@@ -367,7 +392,7 @@
             </div>
         </div>
 
-    </section>  
+    </section>
 
 
     <!-- CONNECT SECTION END -->
@@ -379,7 +404,7 @@
     <!-- FOOTER SECTION START -->
 
 
-     <section class="footer bg_ft " style="overflow-x: hidden;">
+    <section class="footer bg_ft " style="overflow-x: hidden;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -419,7 +444,7 @@
                     <ul class="footer_social_group d-flex gap-4 ">
                         <li><a href="">
 
-                               
+
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path
@@ -452,7 +477,8 @@
             </div>
         </div>
 
-    </section> 
+    </section>
+    <button id="scrollBtn" onclick="topFunction()" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
 
     <!-- FOOTER SECTION END -->
 
@@ -463,6 +489,24 @@
     <!-- slick  -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/assets/js/main.js"></script>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scrollBtn").style.display = "block";
+            } else {
+                document.getElementById("scrollBtn").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
 </body>
 
 </html>
