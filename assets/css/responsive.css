@@ -2,6 +2,24 @@
 
 @media screen and (max-width: 1024px) {
 
+    img.right_element {
+   
+        width: 100%;
+    }
+    .element {
+       
+        font-size: 55px;
+       
+    }
+
+    section.hero {
+        padding: 45px 0 100px;
+    }
+    img.right_element {
+      
+        top: -45px;
+       
+    }
 
     .hero_left_side {
         padding-top: 1px;
@@ -13,7 +31,7 @@
     }
 
     .hero_left_side h1 {
-        font-size: 65px;
+        font-size: 55px;
 
     }
 
@@ -99,8 +117,16 @@
     }
 
     .about_me {
-        padding-top: 100px;
+        /* padding-top: 100px; */
         padding-bottom: 90px;
+    }
+    .marquee_parent {
+        padding-top: 30px;
+    }
+
+    .service_items_child:hover .hover_img img {
+        
+        height: 190%;
     }
 
     .selected_project_content {
@@ -427,35 +453,47 @@
 
     .we_create {
         padding-top: 33px;
+        padding-bottom: 5px;
+        font-style: normal;
     }
-
     .we_create h3 {
-        font-size: 40px;
-
-
-
-
+        
+        font-size: 38px;
+        
+    }
+    .interesting_img_group {
+        padding-bottom: 83px;
+       
     }
 
     .img-fluid {
 
         width: 100%;
         height: 100%;
-        /* max-width: 93%;
-        height: 59%; */
-        /* height: auto; */
+       
     }
 
     .interesting_img_group img {
-        max-height: 700px;
+        max-height: 500px;
+    }
+    .we_create.d-flex img {
+        height: 76%;
+        width: 75%;
+        padding-left: 20px;
     }
 
+   
     .interesting_parent h3 {
-        padding-top: 40px;
-        font-size: 50px;
-
+        padding-top: 14px;
+        font-size: 45px;
     }
 
+    .selected_project_left_side {
+        padding-top: 80px;
+    }
+    .selected_project_right_side {
+        padding-top: 60px;
+    }
     .interesting_content {
         padding-top: 25px;
 
